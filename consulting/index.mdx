@@ -2,52 +2,76 @@
 
 type: consulting
 
-title: Consulting Services (63)
-
-## I am looking for...
+title: Consulting Services
 
 PageLeftMenu:
-- title: All SSW Services
-  link: ssw/
-- title: Website Development
-  link: ssw/
-- title: Application Development
-  link: ssw/
-- title: Database Development
-  link: ssw/
-- title: Mobile Development
-  link: ssw/
-- title: Consulting
-  link: ssw/
-- title: Design
-  link: ssw/
-- title: Content Management Systems (CMS)
-  link: ssw/
-- title: Cloud and Infrastructure
-  link: ssw/
-- title: Video
-  link: ssw/
 
-## Development Teams
+- title: All SSW Services
+  link: #filter
+  data-filter: .all
+
+- title: Website Development
+  link: #filter
+  data-filter: .webdev
+
+- title: Application Development
+  link: #filter
+  data-filter: .appdev
+
+- title: Database Development
+  link: #filter
+  data-filter: .datadev
+
+- title: Mobile Development
+  link: #filter
+  data-filter: .mobdev
+
+- title: Consulting
+  link: #filter
+  data-filter: .consulting-services
+
+- title: Design
+  link: #filter
+  data-filter: .design
+
+- title: Content Management Systems (CMS)
+  link: #filter
+  data-filter: .cms
+
+- title: Cloud and Infrastructure
+  link: #filter
+  data-filter: .hosting-solutions
+  
+- title: Video
+  link: #filter
+  data-filter: .video
+
+heading: Development Teams
+filter-item: item cms development mobdev datadev webdev appdev isotope-header consulting-services all
+
 ServiceList: 
     - image: images/thumbs/thumb-web-mvc.jpg
       title: Web Applications + APIs
       description: SSW has the resources to develop sites of any scope, from ongoing maintenance tasks to the implementation of large complex sites.
       link: web-applications/
+      filter-item: item webdev all
 
     - image: images/thumbs/thumb-mobiles-apps.jpg
       title: Mobile Apps
       description: We can build your mobile app using React Native, MAUI (was Xamarin), Flutter, Cordova, PWA, or Ionic!
       link: mobile-application-development/
+      filter-item: item mobdev webdev appdev development all
 
     - image: images/thumbs/thumb-angularjs.jpg
       title: Angular / SPA
       description: Build sexy web apps with this a TypeScript-based web application platform, open-sourced and led by Google!
       link: angular/
+      filter-item: item AngularJS consulting-services webdev development appdev all
 
     - image: images/thumbs/thumb-react.jpg
       title: React
       description: Easily create interactive UIs with this JavaScript library, maintained by Facebook, Instagram and a large community!
       link: react/
+      filter-item: item React consulting-services webdev development appdev all
 
 ---
