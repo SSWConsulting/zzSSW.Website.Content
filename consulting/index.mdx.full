@@ -47,7 +47,7 @@ pageLeftMenu:
 
 serviceList: 
   heading: Development Teams
-  filter-item: item cms development mobdev datadev webdev appdev isotope-header consulting-services all
+  filterItem: item cms development mobdev datadev webdev appdev isotope-header consulting-services all
 
   list:
     - image: ./images/thumbs/thumb-web-mvc.jpg
@@ -136,7 +136,7 @@ serviceList:
 
 ServiceList: 
   heading: Consulting
-  ilter-item: item consulting-services training-services isotope-header all
+  filterItem: item consulting-services training-services isotope-header all
 
   list:
     - image: images/thumbs/thumb-remote.jpg
@@ -261,7 +261,7 @@ ServiceList:
 
 serviceList: 
   heading: Consulting
-  filter-item: item consulting-services training-services isotope-header all
+  filterItem: item consulting-services training-services isotope-header all
 
   list: 
     - image: images/thumbs/thumb-remote.jpg
@@ -386,7 +386,7 @@ serviceList:
 
 serviceList: 
   heading: Creatives
-  filter-item: item webdev video appdev mobdev design isotope-header all
+  filterItem: item webdev video appdev mobdev design isotope-header all
 
   list: 
     - image: images/thumbs/thumb-product-design.jpg
@@ -421,7 +421,7 @@ serviceList:
 
 serviceList: 
   heading: Platforms
-  filter-item: item development webdev platforms isotope-header all
+  filterItem: item development webdev platforms isotope-header all
 
   list: 
     - image: images/thumbs/thumb-azure.jpg"
@@ -456,7 +456,7 @@ serviceList:
 
 serviceList: 
   heading: Content Management Systems
-  filter-item: item cms isotope-header all
+  filterItem: item cms isotope-header all
 
   list:
     - image: images/thumbs/thumb-wordpress.jpg
@@ -503,7 +503,7 @@ serviceList:
 
 serviceList: 
   heading: Cloud and Infrastructure
-  filter-item: item hosting-solutions webdev isotope-header consulting-services all
+  filterItem: item hosting-solutions webdev isotope-header consulting-services all
 
   list:
     - image: images/thumbs/thumb-network.jpg
