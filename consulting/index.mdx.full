@@ -40,7 +40,7 @@ pageLeftMenu:
 - title: Cloud and Infrastructure
   link: filter
   data-filter: .hosting-solutions
-  
+
 - title: Video
   link: filter
   data-filter: .video
@@ -454,4 +454,4 @@ serviceList:
       link: ssw/
       filter-item: item hosting-solutions all
 
----
+--- 
