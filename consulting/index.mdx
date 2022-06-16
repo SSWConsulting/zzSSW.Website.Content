@@ -8,48 +8,59 @@ pageLeftMenu:
 - title: All SSW Services
   link: filter
   data-filter: .all
+  class: selected
 
 - title: Website Development
   link: filter
   data-filter: .webdev
+  class: 
 
 - title: Application Development
   link: filter
   data-filter: .appdev
+  class: 
 
 - title: Database Development
   link: filter
   data-filter: .datadev
+  class: 
 
 - title: Mobile Development
   link: filter
   data-filter: .mobdev
+  class: 
 
 - title: Consulting
   link: filter
   data-filter: .consulting-services
+  class: 
 
 - title: Design
   link: filter
   data-filter: .design
+  class: 
 
 - title: Content Management Systems (CMS)
   link: filter
   data-filter: .cms
+  class: 
 
 - title: Cloud and Infrastructure
   link: filter
   data-filter: .hosting-solutions
+  class: 
   
 - title: Video
   link: filter
   data-filter: .video
+  class: 
 
 serviceList: 
-  heading: Development Teams
-  filter-item: item cms development mobdev datadev webdev appdev isotope-header consulting-services all
+  0:
+    heading: Development Teams
+    heading_filter: item cms development mobdev datadev webdev appdev isotope-header consulting-services all
 
-  list:
+    list:
     - image: ./images/thumbs/thumb-web-mvc.jpg
       title: Web Applications + APIs
       description: SSW has the resources to develop sites of any scope, from ongoing maintenance tasks to the implementation of large complex sites.
@@ -76,7 +87,7 @@ serviceList:
 
     - image: images/thumbs/thumb-blazor.jpg
       title: Blazor
-      description: The best way to build an enterprise app blazing fast. We've seen it more than 50x faster than Angular (once it's loaded) on testing. C# with Razor pages is nicer than JavaScript.
+      description: The best way to build an enterprise app blazing fast. We've seen it more than 50x faster than Angular (once it's loaded) on testing. Cssw/ with Razor pages is nicer than JavaScript.
       link: blazor/
       filter-item: item Blazor consulting-services webdev development appdev all
 
@@ -89,7 +100,7 @@ serviceList:
     - image: images/thumbs/thumb-jamstack.jpg
       title: Jamstack (Static Sites with Gatsby/Next.js)
       description: Jamstack is a modern web development architecture based on client-side JavaScript, reusable APIs and prebuilt Markup. It's used on SSW Rules and SSW People.
-      link: #
+      link: ssw/
       filter-item: item Azure platform all cms webdev consulting-services
 
     - image: images/thumbs/thumb-database-dev.jpg
@@ -125,7 +136,7 @@ serviceList:
     - image: images/thumbs/thumb-azurecognitiveservices.jpg
       title: Azure Cognitive Services
       description: Make your existing applications smarter. Add Artificial Intelligence APIs like vision, speech, language and knowledge capability to your apps.
-      link: #
+      link: ssw/
       filter-item: item AzureCognitiveServices consulting-services hosting-solutions webdev development appdev all
 
     - image: images/thumbs/thumb-azuresynapse.jpg
@@ -134,11 +145,11 @@ serviceList:
       link: azure-synapse/
       filter-item: item AzureSynapse consulting-services hosting-solutions datadev development all
 
-ServiceList: 
-  heading: Consulting
-  ilter-item: item consulting-services training-services isotope-header all
+  1: 
+    heading: Consulting
+    heading_filter: item consulting-services training-services isotope-header all
 
-  list:
+    list:
     - image: images/thumbs/thumb-remote.jpg
       title: Remote Work
       description: Put the tools in place to allow your employees to work from home including Teams, cloud migration, VPN, training, and more.
@@ -154,7 +165,7 @@ ServiceList:
     - image: images/thumbs/thumb-strategicarchitecture.jpg
       title: Strategic Architecture
       description: Combine SSW's deep experience with best practices and industry trends to develop a strategic architecture for your organization.
-      link: #
+      link: ssw/
       filter-item: item consulting-services training-services all
 
     - image: images/thumbs/thumb-software-auditing.jpg
@@ -190,7 +201,7 @@ ServiceList:
     - image: images/thumbs/thumb-document-management.jpg
       title: Document Management
       description: SSW has potential solutions to improve the logistics of getting multiple document approvals, focussing on automated document workflow.
-      link: #
+      link: ssw/
       filter-item: item consulting-services all
 
     - image: images/thumbs/thumb-search.jpg
@@ -232,19 +243,19 @@ ServiceList:
     - image: images/thumbs/thumb-educational.jpg
       title: Educational
       description: We can create a whole raft of other solutions depending on your school’s (or university’s) existing technology and unique requirements.
-      link: #
+      link: ssw/
       filter-item: item consulting-services all
 
     - image: images/thumbs/thumb-mentor.jpg
       title: Mentoring
       description: Does your team of developers need to learn a new technology? SSW mentoring is the best way to get them up to speed to deliver quality software.
-      link: #
+      link: ssw/
       filter-item: item consulting-services training-services all
 
     - image: images/thumbs/thumb-customtraining.jpg
       title: Custom Training
       description: We believe that everyone should have access to expert advice. SSW provides high quality hands-on training for your team.
-      link: #
+      link: ssw/
       filter-item: item consulting-services training-services all
 
     - image: images/thumbs/thumb-security.jpg
@@ -258,5 +269,199 @@ ServiceList:
       description: We help organizations to remain more organized while carrying out standard accounting functions with Xero and MYOB.
       link: xero-myob
       filter-item: item Azure platform all consulting-services
+
+  2: 
+    heading: Creatives
+    heading_filter: item webdev video appdev mobdev design isotope-header all
+
+    list:
+    - image: images/thumbs/thumb-product-design.jpg
+      title: Product Design
+      description: We help companies to successfully launch products or services or re-create existing ones, improving UI, UX, and the corporate identity for your project.
+      link: ssw/
+      filter-item: item appdev mobdev design webdev all
+
+    - image: images/thumbs/thumb-design.jpg
+      title: Web Design & UX
+      description: A well designed user interface can improve your corporate image and sales. We deliver practical, creative and unique user experience for your website/app.
+      link: ssw/
+      filter-item: item appdev mobdev design webdev all
+
+    - image: images/thumbs/thumb-video-production.jpg
+      title: Video Production
+      description: Use a great video to promote your message and build more customers.
+      link: ssw/
+      filter-item: item design video video marketing all consulting-services
+
+    - image: images/thumbs/thumb-sswdigital.jpg
+      title: SSW Digital
+      description: To accelerate growth you need a digital partner who can help build your digital strategy, prioritise the implementation and execute the campaigns.
+      link: ssw/
+      filter-item: item design video video marketing all consulting-services
+
+    - image: images/thumbs/thumb-chapelrental.jpg
+      title: SSW Chapel Conference Rental
+      description: Do you have an event idea? Then we have the venue! The SSW Chapel conference rooms are spacious and quiet retreats in convenient locations.
+      link: ssw/
+      filter-item: item design video video marketing al
+
+  3: 
+    heading: Platforms
+    heading_filter: item development webdev platforms isotope-header all
+
+    list:
+    - image: images/thumbs/thumb-azure.jpg
+      title: Microsoft Azure
+      description: Enables you to build and run highly available applications without focusing on the infrastructure. Azure makes it easy, scalable, and cheap... for others it is difficult and expensive :)
+      link: ssw/
+      filter-item: item Azure platform all consulting-services
+
+    - image: images/thumbs/thumb-power-platform.jpg
+      title: Power Platform
+      description: Microsoft's Power Platform is a set of low-code applications that can be used individually to create easy to use business solutions.
+      link: ssw/
+      filter-item: item Azure platform all consulting-services
+
+    - image: images/thumbs/thumb-dynamics.jpg
+      title: Microsoft Dynamics 365
+      description: Dynamics 365 combines existing Microsoft products such as Dynamics CRM, Dynamics NAV, and Dynamics AX into one seamless solution.
+      link: ssw/
+      filter-item: item CRM platform all consulting-services
+
+    - image: images/thumbs/thumb-sharepoint.jpg
+      title: SharePoint
+      description: The premier content management to store all documents & records. SSW helps enterprises customize and develop SharePoint often powered by the SharePoint Framework (aka SPFx) with React.
+      link: ssw/
+      filter-item: item webdev development platform all
+
+    - image: images/thumbs/thumb-office.jpg
+      title: Office 365
+      description: The Office you know plus extra tools will help you work better together, all based on the cloud.
+      link: ssw/
+      filter-item: item webdev development consulting-services training-services platform all
+
+  4:
+    heading: Content Management Systems
+    heading_filter: item cms isotope-header all
+
+    list:
+    - image: images/thumbs/thumb-wordpress.jpg
+      title: WordPress
+      description: WordPress the most popular content management system (CMS) on the web, and is trusted by content publishers from both large and small businesses.
+      link: ssw/
+      filter-item: item webdev development platform cms all
+
+    - image: images/thumbs/thumb-kentico.jpg
+      title: Kentico
+      description: Kentico is the only fully integrated ASP.NET CMS, E-commerce, and Online Marketing platform.
+      link: ssw/
+      filter-item: item webdev development platform cms all
+
+    - image: images/thumbs/thumb-dnn.jpg
+      title: DNN - DotNetNuke
+      description: DNN (AKA Evoq) can be used as a web content management system (CMS) for simple web sites or as a powerful application development framework.
+      link: ssw/
+      filter-item: item webdev development platform cms all
+
+    - image: images/thumbs/thumb-sitefinity.jpg
+      title: Sitefinity
+      description: Sitefinity's mix of benefits for marketers, IT managers, Developers and designers make it the ideal choice for medium sized businesses.
+      link: ssw/
+      filter-item: item webdev development platform cms all
+
+    - image: images/thumbs/thumb-orchard.jpg
+      title: Orchard
+      description: A free, open source, community-focused project aimed at delivering applications and reusable components on the rock-solid ASP.NET MVC platform.
+      link: ssw/
+      filter-item: item webdev development platform cms all
+
+    - image: images/thumbs/thumb-sitecore.jpg
+      title: Sitecore
+      description: A mix of powerful marketing and business features, rich development support and scalability make it the ideal solution for leading websites.
+      link: ssw/
+      filter-item: item webdev development platform cms all
+
+    - image: images/thumbs/thumb-umbraco.jpg
+      title: Umbraco
+      description: With over than 200.000 installations, Umbraco is one of the most deployed Web Content Management Systems on the Microsoft stack.
+      link: ssw/
+      filter-item: item Azure platform all consulting-services
+
+  5:
+    heading: Cloud and Infrastructure
+    heading_filter: item hosting-solutions webdev isotope-header consulting-services all
+
+    list:
+    - image: images/thumbs/thumb-network.jpg
+      title: Network Architecture
+      description: In such a fast paced moving industry, it's important to have a well designed and maintained Network Infrastructure.
+      link: ssw/
+      filter-item: item consulting-services all
+
+    - image: images/thumbs/thumb-powershell.jpg
+      title: PowerShell
+      description: Get your infrastructure automation from snail's pace to blazing fast.
+      link: ssw/
+      filter-item: item consulting-services all
+
+    - image: images/thumbs/thumb-hyper-v.jpg
+      title: On Premises Hyper V
+      description: We recommend Microsoft Hyper V the fastest growing virtualization solution on the market today.
+      link: ssw/
+      filter-item: item hosting-solutions all
+
+    - image: images/thumbs/thumb-skype.jpg
+      title: Skype for Business
+      description: Skype for Business is the premier phone system from Microsoft.It features instant messaging, Voice Over IP and Video Conferencing inside the Skype for Business client software.
+      link: ssw/
+      filter-item: item consulting-services all
+
+    - image: images/thumbs/thumb-vault.jpg
+      title: Vault
+      description: Vault is a security-first cloud service. 
+      link: ssw/
+      filter-item: item AzureCognitiveServices consulting-services webdev development appdev all
+
+    - image: images/thumbs/thumb-servicedesk.jpg
+      title: Service Desk
+      description: Potential costs savings as you are only paying for support when you need it.
+      link: ssw/
+      filter-item: item consulting-services hosting-solutions training-services all
+
+    - image: images/thumbs/thumb-supportplans.jpg
+      title: Support Plans
+      description: Gain peace of mind that you'll be covered in case of an emergency.
+      link: ssw/
+      filter-item: item consulting-services hosting-solutions training-services all
+
+    - image: images/thumbs/thumb-backup.jpg
+      title: Backup/Disaster Recovery Audit
+      description: If you have good backups and a thorough Disaster Recovery plan, you can mitigate or completely overcome potential catastrophes.
+      link: ssw/
+      filter-item: item hosting-solutions consulting-services all
+
+    - image: images/thumbs/thumb-teams.jpg
+      title: Microsoft Teams
+      description: Teams is the premier Office 365 chat, collaboration and phone system from Microsoft.
+      link: ssw/
+      filter-item: item hosting-solutions consulting-services all
+
+    - image: images/thumbs/thumb-video-conferencing.jpg
+      title: Video Conferencing
+      description: Engage remote teams and employees to work from home; promote collaboration across the team; run webinars and live events; meet clients; interview job candidates.
+      link: ssw/
+      filter-item: item consulting-services all
+
+    - image: images/thumbs/thumb-backblaze.jpg
+      title: BackBlaze and CloudBerry
+      description: Backblaze has introduced a simple backup system utilizing B2 Cloud Storage which is cheap, requires little on premises infrastructure and fast to setup.
+      link: ssw/
+      filter-item: item hosting-solutions all
+
+    - image: images/thumbs/thumb-data-protection.jpg
+      title: On Premises Data Protection Manager
+      description: Microsoft System Center Data Protection Manager can take the stress out of backups by allowing you to control all backups from one central console.
+      link: ssw/
+      filter-item: item hosting-solutions all
 
 ---
