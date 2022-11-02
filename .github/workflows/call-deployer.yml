@@ -1,0 +1,12 @@
+name: Call website deployment pipeline
+
+on:
+  workflow_dispatch: # to test
+  push:
+    branches:
+      - main #on push to the master branch do the jobs below
+
+jobs:
+  deploy:
+    name: Call the website project's deployment pipeline
+    uses: SSWConsulting/SSW.Website/.github/workflows/main.yml@main
