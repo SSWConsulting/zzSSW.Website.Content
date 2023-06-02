@@ -1,3 +1,8 @@
+> **Warning**
+> This repo is no longer used, it has been replaced with a shiny new NextJS site as per https://www.ssw.com.au/rules/best-static-site-tech-stack/
+
+Check out the v3 repo - https://github.com/SSWConsulting/SSW.Website-v3
+
 # Overview 
 This template provides users with a default set of issue templates and labels to work with.
 
